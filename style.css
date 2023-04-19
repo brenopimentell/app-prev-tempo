@@ -19,6 +19,8 @@ body {
     opacity: 0.7;
     border-radius: 25px;
     padding: 20px;
+    width: 95%;
+    max-width: 450px;
 }
 
 
@@ -46,4 +48,38 @@ body {
 
 .img-pesquisar {
     width: 25px;   
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.temperatura{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.caixa-media {
+   margin-top: 20px; 
+}
+
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+
+.umidade{
+    color: #ffffff;
+    margin-top: 20px;
 }
